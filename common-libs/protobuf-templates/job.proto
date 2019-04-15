@@ -1,0 +1,20 @@
+syntax = "proto2";
+
+package job;
+
+message Job {
+  required string name = 1;
+  required int32 id = 2;
+
+  enum FileType {
+    ENCODED = 0;
+    NFS_Path = 1; // not handled yet
+  }
+
+  message File {
+    required string encodedFile = 1;
+    required FileType type = 2 [default = ENCODED];
+  }
+
+  repeated File files = 3;
+}

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-slave/main.cpp
+iostream
+-
+thread
+-
+chrono
+-
+random
+-
+zmq.hpp
+-
+

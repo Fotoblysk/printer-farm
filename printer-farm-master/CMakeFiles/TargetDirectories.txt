@@ -1,0 +1,3 @@
+/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/CMakeFiles/rebuild_cache.dir
+/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/CMakeFiles/printer_farm_master.dir
+/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/CMakeFiles/edit_cache.dir

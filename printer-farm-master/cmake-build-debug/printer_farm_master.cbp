@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="printer_farm_master"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\os_libs\;CMake Files\..\..\..\..\..\os_libs\vcpkg\;CMake Files\..\..\..\..\..\os_libs\vcpkg\scripts\;CMake Files\..\..\..\..\..\os_libs\vcpkg\scripts\buildsystems\;CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\;CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\;CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\;CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printer_farm_master">
+				<Option output="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/printer_farm_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+					<Add directory="/home/railgunpat/os_libs/vcpkg/installed/x64-linux/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 printer_farm_master"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="printer_farm_master/fast">
+				<Option output="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/printer_farm_master" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+					<Add directory="/home/railgunpat/os_libs/vcpkg/installed/x64-linux/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 printer_farm_master/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/job.pb.cc">
+			<Option target="printer_farm_master"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/job.pb.h">
+			<Option target="printer_farm_master"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/cmake-build-debug/job.pb.h.rule">
+			<Option target="printer_farm_master"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/main.cpp">
+			<Option target="printer_farm_master"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/src/zhelpers.hpp">
+			<Option target="printer_farm_master"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/installed/x64-linux/share/protobuf/protobuf-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/installed/x64-linux/share/protobuf/protobuf-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/installed/x64-linux/share/protobuf/protobuf-options.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/installed/x64-linux/share/protobuf/protobuf-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/installed/x64-linux/share/protobuf/protobuf-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\"/>
+		</Unit>
+		<Unit filename="/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-master/../../../../../os_libs/vcpkg/installed/x64-linux/share/protobuf/protobuf-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\os_libs\vcpkg\installed\x64-linux\share\protobuf\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
