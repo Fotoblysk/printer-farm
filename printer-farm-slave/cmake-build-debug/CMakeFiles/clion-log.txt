@@ -1,4 +1,0 @@
-/home/railgunpat/other_bins/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/home/railgunpat/os_libs/vcpkg/scripts/buildsystems/vcpkg.cmake -G "CodeBlocks - Unix Makefiles" /home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-slave
--- Configuring done
--- Generating done
--- Build files have been written to: /home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-slave/cmake-build-debug

@@ -1,3 +1,0 @@
-/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-slave/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-slave/cmake-build-debug/CMakeFiles/printer_farm_slave.dir
-/home/railgunpat/uczelnia/kolo/rekrutacja/printer-farm/printer-farm-slave/cmake-build-debug/CMakeFiles/edit_cache.dir
