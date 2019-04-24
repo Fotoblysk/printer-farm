@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package pf_msg;
+
+message JobMessage {
+    required string path = 1;
+    required string encodedFile = 3;
+}
+
+message PrinterDataMessage {
+    enum Status {
+        NO_ID = 0;
+        WAITING = 1;
+        FINISHED = 2;
+        FAILED = 3;
+    }
+    required Status status = 1;
+    optional uint32 printerId = 2;
+}

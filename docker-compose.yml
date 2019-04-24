@@ -1,0 +1,19 @@
+version: '3'
+services:
+  printer-farm-master:
+    network_mode: host # this is bad
+    build: 
+      context:
+        printer-farm-master
+    ports: # not needed now
+     - "5564:5564"
+     - "5565:5565"
+    volumes:
+      - ${PRINT_DIR}:/app/print-dir
+
+
+  printer-farm-slave:
+    network_mode: host # this is bad
+    build: 
+      context:
+        printer-farm-slave

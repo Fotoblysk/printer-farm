@@ -1,6 +1,5 @@
 FROM debian:buster
 # TODO migrate this to alpine linux
-
 # TODO  need thrusted gpg not working
 RUN echo "deb [trusted=yes] http://download.opensuse.org/repositories/network:/messaging:/zeromq:/release-stable/Debian_9.0/ ./" >> /etc/apt/sources.list
 RUN apt-get -y update
@@ -20,4 +19,4 @@ WORKDIR /app
 RUN cmake . -DCMAKE_TOOLCHAIN_FILE=/libs/vcpkg/scripts/buildsystems/vcpkg.cmake
 RUN make
 
-CMD ./printer_farm_master /app/print-dir
+CMD ./printer_farm_slave

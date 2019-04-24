@@ -1,6 +1,7 @@
 CMakeCache.txt
-CMakeFiles
+CMakeFiles/
 Makefile
-cmake-build-debug
+cmake-build-debug/
 cmake_install.cmake
 .idea/
+printer_farm_slave.cbp

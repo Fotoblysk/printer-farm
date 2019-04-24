@@ -1,4 +1,4 @@
-# printer-farm-master
+# printer-farm
 
 Simple print scheduler using 0mq and protobuf.
 This is submodule of printer-farm project and it's use outside of that project scope might be unstable.
@@ -18,14 +18,13 @@ This is submodule of printer-farm project and it's use outside of that project s
   
 ## Docker usage
 ```sh
-export PRINT_DIR=<to dir where you will be adding files to pring>
+export PRINT_DIR=<absolute path to dir where you will be adding files to pring>
+export NUMBER_OF_SLAVES=<em ...  number of slaves fe. 5>
   $ ./setup.sh
-  $ docker build -t printer-farm-master
-  $ docker run -t --net=host --volume $PRINT_DIR:/app/print-dir printer-farm-slave-raw
+  $ docker-compose up --build --scale printer-farm-slave="$NUMBER_OF_SLAVES"
 ```
 ## Raw machine usage
 Follow steps from `./Dockerfile` at least for debian buster.
-
 ## Test
 ```sh
 cd $PRINT_DIR
@@ -33,3 +32,4 @@ for i in {1..1000}; do echo "$i">"test$i"; done
 ```
 
 **[⬆ back to top](#table-of-contents)**
+

@@ -1,4 +1,4 @@
-# printer-farm-master
+# printer-farm-slave
 
 Simple print scheduler using 0mq and protobuf.
 This is submodule of printer-farm project and it's use outside of that project scope might be unstable.
@@ -9,6 +9,7 @@ This is submodule of printer-farm project and it's use outside of that project s
   2. [Docker usage](#docker-usage)
   3. [Raw machine usage](#raw-machine-usage)
   4. [Test](#test)
+
 
 ## Required packages
   - Docker 
